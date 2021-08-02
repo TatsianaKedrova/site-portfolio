@@ -1,0 +1,20 @@
+.remoteJobContainer {
+    min-height: 50vh;
+    background-color: #f5f590;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remoteJobBox {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.remoteJobText {
+    background-color: #d0cccc;
+}
+
+.btn {
+    padding: 5px 20px;
+}

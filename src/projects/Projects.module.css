@@ -1,6 +1,9 @@
 .projectsBlock {
     min-height: 100vh;
     background-color: #b07ce0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .projectsContainer {

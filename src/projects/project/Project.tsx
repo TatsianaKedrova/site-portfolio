@@ -10,12 +10,11 @@ function Project(props: ProjectType) {
     return (
         <div className={classes.project}>
             <div className={classes.picture}>
-                <p>This a project's picture</p>
-                <button className={classes.btn}>Open</button>
+                <a href='https://www.freecodecamp.org/'><button className={classes.btn}>Open</button></a>
             </div>
             <div>
                 <div>
-                    <p>{props.name}</p>
+                    <p className={classes.projectName}>{props.name}</p>
                 </div>
                 <div>
                     <span className={classes.description}>{props.description}</span>
