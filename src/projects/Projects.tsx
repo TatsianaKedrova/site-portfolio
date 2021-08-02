@@ -6,8 +6,8 @@ import Project from "./project/Project";
 
 function Projects() {
     return (
-        <div className={classes.projectsBlock}>
-            <div className={`${styleContainer.container} ${classes.projectsContainer}`}>
+        <div className={classes.projectsContainer}>
+            <div className={`${styleContainer.container} ${classes.projectsBlock}`}>
                 <h2 className={classes.title}>My Projects</h2>
                 <div className={classes.projects}>
                     <Project name={"Social Network"} description={"This is a social net project that was developed using React-Redux-Typescript technologies. It is full of modern features and is ready to use right now."}/>
