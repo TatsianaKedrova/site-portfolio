@@ -1,0 +1,35 @@
+.contactsContainer {
+    background-color: pink;
+    min-height: 100vh;
+}
+
+.contactsBox {
+    flex-direction: column;
+
+}
+
+.contactTitle {
+    background-color: #d0cccc;
+    margin-bottom: 50px;
+}
+
+.formStyle {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 280px;
+}
+
+input[type=text], textarea {
+    width: 100%;
+}
+
+
+.contactsBtn {
+background-color: #b4e1ef;
+    padding: 5px 10px;
+}
+

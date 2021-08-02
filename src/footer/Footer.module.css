@@ -1,0 +1,28 @@
+.footerContainer {
+    background-color: #bff6bf;
+    min-height: 100vh;
+}
+
+.footerBox {
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.footerInfo {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row;
+    justify-content: space-between;
+    width:280px;
+    /*margin: 50px;*/
+
+}
+
+.name {
+    background-color: #d0cccc;
+}
+
+.footerText {
+    background-color: #d0cccc;
+}

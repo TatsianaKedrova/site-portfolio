@@ -6,9 +6,7 @@ function RemoteJob() {
     return (
         <div className={styles.remoteJobContainer}>
             <div className={`${styleContainer.container} ${styles.remoteJobBox}`}>
-
-                    <p className={styles.remoteJobText}>I consider a remote job</p>
-
+                    <h2 className={styles.remoteJobText}>I consider a remote job</h2>
                 <div>
                     <button className={styles.btn}>Hire me</button>
                 </div>

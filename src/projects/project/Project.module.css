@@ -12,7 +12,10 @@
     align-items: center;
     height: 250px;
     width: 350px;
-    background-color: #ecf314;
+    /*background-color: #ecf314;*/
+    background-image: url("http://thestyleinspiration.com/wp-content/uploads/2019/10/javan-tiger.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .btn {
