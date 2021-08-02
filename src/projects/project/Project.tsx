@@ -16,8 +16,7 @@ function Project(props: ProjectType) {
                 <div>
                     <p className={classes.projectName}>{props.name}</p>
                 </div>
-                <div>
-                    <span className={classes.description}>{props.description}</span>
+                <div className={classes.description}>{props.description}
                 </div>
             </div>
         </div>
