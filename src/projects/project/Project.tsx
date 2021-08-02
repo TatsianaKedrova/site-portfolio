@@ -13,8 +13,7 @@ function Project(props: ProjectType) {
                 <a href='https://www.freecodecamp.org/'><button className={classes.btn}>Open</button></a>
             </div>
             <div>
-                <div>
-                    <p className={classes.projectName}>{props.name}</p>
+                <div className={classes.projectName}>{props.name}
                 </div>
                 <div className={classes.description}>{props.description}
                 </div>
