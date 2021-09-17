@@ -23,14 +23,18 @@
     width: 280px;
 }
 
-input[type=text] {
+.formStyle input, .formStyle textarea {
+    width: 100%;
+}
+
+/*input[type=text] {
     width: 100%;
     margin-bottom: 5px;
 }
 
 textarea {
     width: 100%;
-}
+}*/
 
 .contactsBtn {
 background-color: #b4e1ef;

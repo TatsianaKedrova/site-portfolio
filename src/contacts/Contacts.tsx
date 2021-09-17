@@ -10,9 +10,10 @@ function Contacts() {
                 <form className={classes.formStyle}>
                     <input type="text"/>
                     <input type="text"/>
-                    <textarea name="" id=""></textarea>
+                    <textarea />
+                    <button className={classes.contactsBtn} type={"submit"}>Contact me</button>
                 </form>
-                <button className={classes.contactsBtn}>Contact me</button>
+
             </div>
 
         </div>
