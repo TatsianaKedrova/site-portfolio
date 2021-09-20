@@ -2,15 +2,14 @@ import React from "react";
 import classes from "./Projects.module.css";
 import styleContainer from "./../common/styles/Container.module.css";
 import Project from "./project/Project";
+import Title from "../common/components/title/Title";
 
 
 function Projects() {
     return (
         <div className={classes.projectsContainer}>
             <div className={`${styleContainer.container} ${classes.projectsBlock}`}>
-                <div className={classes.title}>
-                    <h2 >My Projects</h2>
-                </div>
+               <Title name={"My projects"} />
                 <div className={classes.projects}>
                     <Project name={"Social Network"}
                              description={"This is a social net project that was developed using React-Redux-Typescript technologies. It is full of modern features and is ready to use right now."}/>
