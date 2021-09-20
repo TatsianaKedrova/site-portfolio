@@ -1,7 +1,5 @@
 .projectsContainer {
-    /*min-height: 100vh;*/
     background-color: #1f1f20;
-            /*#b07ce0;*/
 }
 
 .projectsBlock {
@@ -10,7 +8,30 @@
 }
 
 .title {
-    background-color: #faefef;
+    margin: 0 0 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    position: relative;
+}
+.title h2 {
+    margin: 0;
+}
+
+.title::before {
+    content: "";
+    width: 55px;
+    height: 1px;
+    background: #4e93e6;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
 }
 
 .projects {
@@ -19,6 +40,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 @media screen and (max-width: 876px){

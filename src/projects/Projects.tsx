@@ -9,7 +9,7 @@ function Projects() {
         <div className={classes.projectsContainer}>
             <div className={`${styleContainer.container} ${classes.projectsBlock}`}>
                 <div className={classes.title}>
-                    <h2>My Projects</h2>
+                    <h2 >My Projects</h2>
                 </div>
                 <div className={classes.projects}>
                     <Project name={"Social Network"}
